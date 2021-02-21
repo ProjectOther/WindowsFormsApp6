@@ -33,7 +33,7 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label3 = new System.Windows.Forms.Label();
+            this.TimeSleep = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,21 +80,21 @@
             this.numericUpDown1.Size = new System.Drawing.Size(63, 20);
             this.numericUpDown1.TabIndex = 5;
             // 
-            // label3
+            // TimeSleep
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 148);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "+++";
+            this.TimeSleep.AutoSize = true;
+            this.TimeSleep.Location = new System.Drawing.Point(12, 122);
+            this.TimeSleep.Name = "TimeSleep";
+            this.TimeSleep.Size = new System.Drawing.Size(233, 13);
+            this.TimeSleep.TabIndex = 6;
+            this.TimeSleep.Text = "Время,когда вы будете должны лечь спать  ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TimeSleep);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dateTimePicker1);
@@ -114,7 +114,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label TimeSleep;
     }
 }
 
